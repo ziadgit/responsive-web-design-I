@@ -1,0 +1,48 @@
+nav {
+    display: flex;
+    max-width: 1024px;
+    justify-content: space-between;
+    padding: 25px 0 0 0;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: black;
+        padding: 25px 0 25px 0;
+    }
+    
+    .grow { transition: all .2s ease-in-out; }
+    .grow:hover { transform: scale(1.1); }
+     
+    
+       .top-content .text-container {
+           margin: 15px 0 0 0;
+            width: 48%;
+            padding: 0 1%;
+            padding-bottom: 20px;  
+        }
+    
+        .row {
+            display: flex;
+          }
+          
+          .column {
+            flex: 50%;
+            padding:15px 15px 15px 0;
+            margin:15px 15px 15px 0;
+            border-bottom: 1px dashed black;
+          }
+    
+          .column a {
+              width: 125px;
+              display:block;
+              border-radius: 5px;
+              border: 2px solid black;
+              padding:10px;
+              margin: 15px 0;
+              text-decoration: none;
+              color: black;
+              text-align:center;
+    
+          }
+        
