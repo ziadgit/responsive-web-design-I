@@ -111,8 +111,9 @@ h2 {
   }
 
   .container header nav a {
-      color:green;
-    margin-bottom: 20px;
+    color:green;
+    
+    
   }
  
 
@@ -164,6 +165,15 @@ h2 {
 }
   @media(max-width: 500px) {
 
+    #innovation {
+        font-size: 64px;
+        text-align: center;
+        padding-top: 32px;
+        margin-top: 32px;
+        padding-bottom: 25px;
+        margin-bottom: 20px;
+    }
+
     .n-1 {
 order: 2;
     }
@@ -201,8 +211,11 @@ order: 2;
   
     .container header nav a {
         color:red;
-      margin-bottom: 20px;
+        font-size: 24px;
+        padding-top: 24px;
+      padding-bottom: 24px;
       border-bottom: 1px solid grey;
+      text-align: center;
     }
   }
 
