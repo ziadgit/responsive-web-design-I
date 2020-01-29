@@ -1,4 +1,4 @@
-nav a {
+a {
     text-decoration: none;
  }
  .container {
@@ -173,6 +173,19 @@ h2 {
         padding-bottom: 25px;
         margin-bottom: 20px;
     }
+
+    #start {
+        height: 45px;
+        padding:12px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        width: 177px;
+        margin: 0 auto;
+        text-align: center;
+        text-decoration: none;
+        color black;
+    }
+
 
     .n-1 {
 order: 2;
