@@ -1,31 +1,4 @@
-.container .item {
-    width: 300px;
-    margin: 20px;
-   
-  }
 
-  
-#callout h1 {
-    font-size: 80px;
-    text-align:center;
-    margin: 20px;
-    padding:20px;
-}
-
-
-  .container {
-      display: flex;
-  }
-
-  
-
-
-  
- 
-#page {
-    max-width: 1024px;
-  margin: auto;
-}
   nav a {
      text-decoration: none;
      color: grey;
@@ -33,40 +6,14 @@
 
 
 
-  #start
-{
-	border: 1px solid black;
-	box-sizing: border-box;
-	display: inline-block;
-	height: 40px;
-	margin-left: 100px;
-	margin-top: 5px;
-	padding: 10px;
-	text-align: center;
-	width: 185px;
-}
-#start a
-{
-	color: black;
-	display: inline-block;
-	text-decoration: none;
-}
 
-#middle-img {
-    width: 100%;
-}
+
+
 
 h2 {
     font-size: 24px;
 }
 
-.row {
-    display: flex;
-  }
-  
-  .column {
-    flex: 50%;
-  }
 
   ul {
       list-style-type: square;
