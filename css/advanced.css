@@ -1,10 +1,68 @@
 /* Responsive */
+@media(max-width: 800px) {
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px 1.25%;
   }
   
+  nav a {
+    text-decoration: none;
+    color: grey;
+ }
+
+
+
+
+
+
+
+h2 {
+   font-size: 24px;
+}
+
+
+ ul {
+     list-style-type: square;
+     margin:10px;
+     padding:10px;
+ }
+ .service {
+     margin:20px;
+     padding:20px;
+     background: #F0F0F0;
+     border: solid 1px black;
+ }
+
+ #service-facts {
+     border-top:solid 2px black;
+     padding:20px;
+     margin: 20px;
+ }
+
+ #services-headline {
+     padding: 10px;
+     margin:  10px;
+     border-bottom: solid 1px black;
+ }
+
+
+ #services a {
+     display: block;
+     font-size:12px;
+     width: 100px;
+     margin:15px 0 0 0;
+       padding:10px;
+       border-radius:5px;
+       text-align: center;
+       text-decoration: none;
+       color: black;
+     background: white;
+     border: solid 1px black;
+
+ }
+
+}
   @media(max-width: 500px) {
     .container {
       
