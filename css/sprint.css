@@ -1,14 +1,5 @@
 
-.hero-container  {
-    display:flex;
-    justify-content: space-between;
-    margin: 20px;
-    padding:20px;
-}
-  .hero-container .heroitem {
-      max-width: 600px;
-      
-  }
+
   
 #callout h1 {
     font-size: 80px;
@@ -17,9 +8,7 @@
     padding:20px;
 }
 
-#hero {
-    max-width:1024px;
-}
+
 
 
   
