@@ -1,8 +1,4 @@
-.container .item {
-    width: 300px;
-    margin: 20px;
-   
-  }
+
 .hero-container  {
     display:flex;
     justify-content: space-between;
@@ -24,19 +20,14 @@
 #hero {
     max-width:1024px;
 }
-  .container {
-      display: flex;
-  }
+
 
   
 
 
   
  
-#page {
-    max-width: 1024px;
-  margin: auto;
-}
+
   
 
 
