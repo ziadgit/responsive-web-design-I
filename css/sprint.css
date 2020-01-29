@@ -9,26 +9,10 @@
 }
 
 
-
-
-  
-
-
-  
- 
-
-  
-
-
-
   #start
 {
 	border: 1px solid black;
-	box-sizing: border-box;
-	display: inline-block;
-	height: 40px;
-	margin-left: 100px;
-	margin-top: 5px;
+	
 	padding: 10px;
 	text-align: center;
 	width: 185px;
@@ -40,9 +24,6 @@
 	text-decoration: none;
 }
 
-#middle-img {
-    width: 100%;
-}
 
 h2 {
     font-size: 24px;
