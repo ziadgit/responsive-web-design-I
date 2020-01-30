@@ -95,7 +95,9 @@ h2 {
 /* Responsive */
 @media(max-width: 800px) {
 
-   
+    #hero-snippet {
+        display:none;
+    }
 .container {
     margin: 0 auto;
     padding: 20px 1.25%;
@@ -227,9 +229,7 @@ h2 {
         margin: 0 auto;
     }
 
-    #hero-snippet {
-        display:none;
-    }
+    
     #mid-snippet {
         width: 100%;
         max-width: 471px;
