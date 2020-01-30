@@ -1,7 +1,11 @@
 a {
     text-decoration: none;
+    color: grey;
  }
-
+ #details {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+   }
  #hero {
     display: flex;
     margin-bottom:60px;
@@ -9,11 +13,56 @@ a {
     justify-content: space-evenly;
 }
 
+h2 {
+    font-size:16px;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
 #hero-headline {
     display: flex;
   flex-direction: column;
   
 }
+
+#mid-snippet {
+    width: 98%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+#top-fold {
+    display: flex;
+justify-content: space-evenly;
+}
+
+#features {
+    width:45%;
+}
+
+#about{
+    width: 45%;
+}
+
+#bottom-fold {
+    display: flex;
+justify-content: space-evenly;
+margin-bottom:20px;
+}
+
+#services {
+    width:30%;
+}
+
+#product{
+    width: 30%;
+}
+
+#vision{
+    width: 30%;
+}
+
+
 
  #start {
     height: 45px;
@@ -46,9 +95,6 @@ a {
   }
  
 
-h2 {
-   font-size: 24px;
-}
 
 
  ul {
@@ -95,7 +141,7 @@ h2 {
 
 /* Responsive */
 @media(max-width: 800px) {
-
+   
     #hero-snippet {
         display:none;
     }
@@ -147,15 +193,13 @@ h2 {
   }
 
   .container header nav a {
-    color:green;
     
+    margin-top:45px;
     
   }
  
 
-h2 {
-   font-size: 24px;
-}
+
 
 
  ul {
@@ -200,11 +244,34 @@ h2 {
 
 }
   @media(max-width: 500px) {
-
-    #details {
-     border-top: 2px solid black;
-     border-bottom: 2px solid black;
+   
+    #top-fold {
+        display:inline;
     }
+
+    #bottom-fold {
+        display:inline;
+    }
+    #features {
+        width:95%;
+    }
+    
+    #about{
+        width: 95%;
+    }
+
+    #services {
+        width:95%;
+    }
+    
+    #product{
+        width: 95%;
+    }
+    
+    #vision{
+        width: 95%;
+    }
+   
    
 
     #innovation {
@@ -215,15 +282,11 @@ h2 {
         
     }
 
-    h2 {
-        font-size:16px;
-        margin-top: 15px;
-        padding-top: 15px;
-    }
+   
 
     p {
-        padding: 0 0 15px 0;
-        margin: 0 0 15px 0;
+        padding: 0 0 8px 0;
+        margin: 0 0 8px 0;
     }
     #start {
         margin: 0 auto;
@@ -271,16 +334,19 @@ order: 2;
     }
   
     .container header nav a {
-        color:red;
+        
         font-size: 24px;
         padding-top: 24px;
       padding-bottom: 24px;
       border-bottom: 1px solid grey;
       text-align: center;
+      margin-top: 0px;
     }
   }
 
   @media(min-width:801px){
+
+    
     .container header nav {
     
         display: flex;
@@ -290,6 +356,6 @@ order: 2;
       }
 
       .container header nav a {
-          color: blue;
+          
       }
   }
