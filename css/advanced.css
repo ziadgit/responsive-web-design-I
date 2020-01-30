@@ -1,6 +1,12 @@
 a {
     text-decoration: none;
  }
+
+ #innovation {
+    font-size: 64px;
+    text-align: center;
+ }
+ 
  .container {
     margin: 0 auto;
     padding: 20px 1.25%;
@@ -44,6 +50,7 @@ h2 {
      border-bottom: solid 1px black;
  }
 
+ 
 
  #services a {
      display: block;
@@ -165,9 +172,16 @@ h2 {
 }
   @media(max-width: 500px) {
 
+    #details {
+     border-top: 2px solid black;
+     border-bottom: 2px solid black;
+    }
+    #hero {
+        margin-bottom:60px;
+    }
+
     #innovation {
-        font-size: 64px;
-        text-align: center;
+      
         padding-top: 32px;
         margin-top: 32px;
         padding-bottom: 25px;
@@ -201,7 +215,7 @@ h2 {
         display:none;
     }
     #mid-snippet {
-        width: 80%;
+        width: 100%;
         max-width: 471px;
     }
 
