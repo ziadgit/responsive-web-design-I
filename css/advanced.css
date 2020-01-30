@@ -2,11 +2,22 @@ a {
     text-decoration: none;
  }
 
+ #start {
+    height: 45px;
+    padding:12px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 177px;
+    text-align: center;
+    text-decoration: none;
+    color black;
+ }
+ 
  #innovation {
     font-size: 64px;
     text-align: center;
  }
- 
+
  .container {
     margin: 0 auto;
     padding: 20px 1.25%;
@@ -200,15 +211,7 @@ h2 {
         margin: 0 0 15px 0;
     }
     #start {
-        height: 45px;
-        padding:12px;
-        box-sizing: border-box;
-        border: 1px solid black;
-        width: 177px;
         margin: 0 auto;
-        text-align: center;
-        text-decoration: none;
-        color black;
     }
 
     #hero-snippet {
