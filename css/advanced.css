@@ -2,6 +2,18 @@ a {
     text-decoration: none;
  }
 
+ #hero {
+    display: flex;
+    margin-bottom:60px;
+    justify-content: space-evenly;
+}
+
+#hero-headline {
+    display: flex;
+  flex-direction: column;
+  
+}
+
  #start {
     height: 45px;
     padding:12px;
@@ -11,8 +23,9 @@ a {
     text-align: center;
     text-decoration: none;
     color black;
+    margin: 0 auto;
  }
- 
+
  #innovation {
     font-size: 64px;
     text-align: center;
@@ -81,6 +94,8 @@ h2 {
 
 /* Responsive */
 @media(max-width: 800px) {
+
+   
 .container {
     margin: 0 auto;
     padding: 20px 1.25%;
@@ -187,9 +202,7 @@ h2 {
      border-top: 2px solid black;
      border-bottom: 2px solid black;
     }
-    #hero {
-        margin-bottom:60px;
-    }
+   
 
     #innovation {
       
